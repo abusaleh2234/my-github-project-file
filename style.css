@@ -7,7 +7,7 @@
     background-color: rgb(36, 32, 32);
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 5px 40px;
 }
@@ -26,4 +26,40 @@ ul{
 .item:hover{
     color: black;
     background-color: red;
+}
+
+
+/* baner-section  */
+/* .barer-container{
+    
+
+} */
+.baner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+}
+.baner-pic{
+    width: 400px;
+}
+.baner-heading{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    max-width: 495px;
+}
+.baner-pera{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 0;
+    color: white;
+}
+.baner-btn{
+    padding: 12px 22px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
 }
